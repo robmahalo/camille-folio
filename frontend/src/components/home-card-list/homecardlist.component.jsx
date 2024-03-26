@@ -41,7 +41,7 @@ const HomeCardList = () => {
             </p>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000">
+        <div data-aos-duration="1000">
           <div className="card-list-alt">
             <div className="flex-container">
               <div className="card-black">
