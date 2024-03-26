@@ -1,0 +1,28 @@
+.projects-container {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  overflow-x: hidden;
+  // centers elements
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-content-projects {
+  padding: 10px;
+  /* Target the Button component */
+  Button {
+    margin-top: 10px;
+    /* Make the button block-level */
+    display: block;
+    width: 250px; /* Make the button fill the width of its container */
+  }
+}
+
+  .projects-image-container {
+    width: 100%; /* Adjust maximum width as needed */
+    margin-top: 6px;
+    height: auto;
+    padding: 20px;
+  }

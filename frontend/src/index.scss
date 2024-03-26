@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif; /* Use the correct font family name */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: 'Josefin Sans'; /* Use the correct font family name */
+  src: url('./fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+  /* You can include other font formats like woff, woff2, etc. for better browser compatibility */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  font-family: 'Josefin Sans'
+}
+
+h2 {
+  color: white;
+  font-family: 'Josefin Sans'
+
+}
+
+p {
+  color: white;
+  font-family: 'Josefin Sans'
+}
+
+.card {
+  flex-basis: calc(50% - 10px); /* Two cards per row with 20px gap between them */
+  width: 100%; /* Take up full width of the card-list */
+  height: auto; /* Adjust height as needed */
+  background-color: rgb(255, 255, 255);
+  border: 30px solid  rgb(255, 255, 255);
+  color: black;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between cards */
+  padding: 1px; /* Add padding inside the card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-dark {
+  width: 100%; /* Take up full width of the card-list */
+  height: auto; /* Adjust height as needed */
+  background-color: rgb(0, 0, 0);
+  border: 30px solid rgb(0, 0, 0);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between cards */
+  padding: 1px; /* Add padding inside the card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-table {
+  width: 100%; /* Take up full width of the card-list */
+  height: auto; /* Adjust height as needed */
+  background-color: rgb(255, 255, 255);
+  border: 10px solid  rgb(255, 255, 255);
+  color: black;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between cards */
+  padding: 1px; /* Add padding inside the card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-chart {
+  width: 100%; /* Take up full width of the card-list */
+  height: auto; /* Adjust height as needed */
+  background-color: rgb(255, 255, 255);
+  border: 40px solid  rgb(255, 255, 255);
+  color: black;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between cards */
+  padding: 1px; /* Add padding inside the card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-alt {
+  width: 100%; /* Take up full width of the card-list */
+  height: auto; /* Adjust height as needed */
+  background-color: rgb(255, 255, 255);
+  border: 30px solid  rgb(255, 255, 255);
+  color: black;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between cards */
+  padding: 30px; /* Add padding inside the card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column; /* Display cards vertically */
+  width: 100%; /* Take up 90% of the width */
+  margin: 0 auto; /* Center the card list */
+}
+
+.card-list-alt {
+  display: flex;
+  flex-direction: column; /* Display cards vertically */
+  width: 80%; /* Set a maximum width for the card list */
+  max-width: 80%;
+  margin: 0 auto; /* Center the card list */
+}

@@ -1,0 +1,110 @@
+.button-container {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  margin-right: 10px; /* Add margin-top to increase space between the buttons */
+  font-size: 15px;
+  // black theme
+  // background-color: #77ff79;
+  background-color: rgb(50, 99, 222);
+  color: white;
+  // background-color: #D7D9E8;
+  // color: rgb(85, 85, 85);
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+
+  &:hover {
+    // background-color: white;
+    // black theme
+    background-color: rgb(38, 77, 173);
+    color: white;
+    border: 1px solid rgb(38, 77, 173);
+  }
+
+  &.google-sign-in {
+      .background-image {
+      width: 1000px;
+      height: 100%;
+      background-size:100% 100%;
+      background-position: center;
+  }
+
+  &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  }
+
+  &.inverted {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+.custom-button-container {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: #DEF5F0;
+  color: rgb(85, 85, 85);
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  &.google-sign-in {
+      .background-image {
+      width: 1000px;
+      height: 100%;
+      background-size:100% 100%;
+      background-position: center;
+  }
+
+  &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  }
+
+  &.inverted {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+}

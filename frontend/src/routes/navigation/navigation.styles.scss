@@ -1,0 +1,62 @@
+.navigation {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* Set background color with opacity */
+  z-index: 1000; /* Ensure it's on top of other elements */
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+
+  .logo-container {
+    max-width: 70%; /* Adjust maximum width as needed */
+    margin-left: 20px;
+    margin-top: 6px;
+    height: auto;
+    
+
+    &:hover {
+      background-color: rgba(31, 31, 31, 0.9); /* Set background color with opacity */
+      color: black;
+      border-radius: 8px;
+    }
+  }
+
+    .nav-icon-container {
+      max-width: 25px; /* Adjust maximum width as needed */
+      margin-top: 6px;
+      height: 25px;
+    
+
+    &:hover {
+      // background-color: rgba(7, 98, 234, 0.9); /* Set background color with opacity */
+      background-color: rgba(31, 31, 31, 0.9); /* Set background color with opacity */
+      color: black;
+      border-radius: 8px;
+    }
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+      color: white;
+      font-weight: 500;
+
+      &:hover {
+        background-color: rgba(48, 48, 48, 0.9); /* Set background color with opacity */
+        color: white;
+        border-radius: 20px;
+      }
+    }
+  }
+}
