@@ -1,9 +1,35 @@
 import React from "react";
 import "./footer.styles.scss";
+import linkedin from "../../img/LinkedIn.svg";
+import mail from "../../img/Gmail Logo.svg";
 
 const Footer = () => {
   return (
     <div className="box">
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: "10px",
+        }}
+      >
+        let's connect!
+      </h1>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <a
+          href="https://www.linkedin.com/in/camille-manalo-mtfbwy"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ marginRight: "10px" }}
+        >
+          <img className="" src={linkedin} alt="LinkedIn" />
+        </a>
+        <a
+          href="mailto:camillemanalo@icloud.com"
+          style={{ marginLeft: "10px" }}
+        >
+          <img className="" src={mail} alt="Email" />
+        </a>
+      </div>
       <p
         style={{
           color: "gray",
