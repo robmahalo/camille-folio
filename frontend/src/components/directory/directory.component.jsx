@@ -6,7 +6,7 @@ import HomeCardList from "../home-card-list/homecardlist.component";
 const Directory = () => {
   return (
     <Fragment>
-      <div>
+      <div className="directory-container">
         <HomeBanner />
         <HomeCardList />
       </div>

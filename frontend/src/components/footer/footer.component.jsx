@@ -6,14 +6,14 @@ import mail from "../../img/Gmail Logo.svg";
 const Footer = () => {
   return (
     <div className="box">
-      <h1
+      <h2
         style={{
           textAlign: "center",
           marginTop: "10px",
         }}
       >
         let's connect!
-      </h1>
+      </h2>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <a
           href="https://www.linkedin.com/in/camille-manalo-mtfbwy"
