@@ -9,7 +9,7 @@ const Footer = () => {
       <h2
         style={{
           textAlign: "center",
-          marginTop: "10px",
+          marginTop: "100px",
         }}
       >
         let's connect!
@@ -34,7 +34,7 @@ const Footer = () => {
         style={{
           color: "gray",
           textAlign: "center",
-          marginTop: "10px",
+          marginTop: "20px",
         }}
       >
         . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁thanks for visiting . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁ 
