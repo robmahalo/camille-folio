@@ -32,16 +32,21 @@ const Footer = () => {
       </div>
       <p
         style={{
-          color: "gray",
+          color: "white",
           textAlign: "center",
           marginTop: "10px",
         }}
       >
         . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁thanks for visiting . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁ 
       </p>
-          <p>
-            © 2024 Camille Manalo. All rights reserved. | created with boba and VS Code
-          </p>
+      <p>
+        style={{
+          color: "white",
+          textAlign: "center",
+          marginTop: "10px",
+        }}
+        © 2024 Camille Manalo. All rights reserved. | created with boba and VS Code
+      </p>
     
       {/* <FooterContainer>
         <Row>
