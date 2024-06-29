@@ -10,18 +10,14 @@ const Projects = () => {
     <Fragment>
       <div data-aos="fade-up" data-aos-duration="1000">
         <div className="card-list-alt">
-          <div className="card-black"></div>
-          <div>
-            <div className="card-black">
+              <div className="card-black">
               <img
                 className="image-container"
-                src={zara}
-                alt="zara-project"
+                src={munchies}
+                alt="munchies-project"
               ></img>
             </div>
-            <h2>Zara Redesign</h2>
-          </div>
-          <div>
+            <div>
             <div className="card-black">
               <img
                 className="image-container"
@@ -31,15 +27,18 @@ const Projects = () => {
             </div>
             <h2>UCSD's WebReg Redesign</h2>
           </div>
+          <div className="card-black"></div>
           <div>
             <div className="card-black">
               <img
                 className="image-container"
-                src={munchies}
-                alt="munchies-project"
+                src={zara}
+                alt="zara-project"
               ></img>
             </div>
-            <h2>Munchie Masters App</h2>
+          </div>
+          <div>
+
           </div>
         </div>
       </div>
