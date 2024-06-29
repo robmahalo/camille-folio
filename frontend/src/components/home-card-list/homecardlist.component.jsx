@@ -10,13 +10,9 @@ const HomeCardList = () => {
       <div className="card-list-alt">
         <div className="card-black">
           <div style={{ textAlign: 'center' }}>
-            <h1 style={{ fontSize: '2.5rem' }}>Check out what I've made</h1>
+            <h1 style={{ fontSize: '2.5rem' }}>check out what i've made</h1>
           </div>
-        </div>
-          <div>
-            <h1>check out what i've made</h1>
-          </div>
-        </div>
+        </div>  
         <div data-aos-duration="1000">
           <div className="card-list-alt">
             <div className="flex-container">
