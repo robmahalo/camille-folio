@@ -9,7 +9,7 @@ const Footer = () => {
       <h2
         style={{
           textAlign: "center",
-          marginTop: "27px",
+          marginTop: "10px",
         }}
       >
         let's connect!
@@ -30,16 +30,6 @@ const Footer = () => {
           <img className="" src={mail} alt="Email" />
         </a>
       </div>
-      <div className="box">
-        <h3
-          style={{
-            textAlign: "center",
-            marginTop: "27px",
-          }}
-        >
-        . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁thanks for visiting . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁
-        </h3>  
-      </div>
       <p
         style={{
           color: "gray",
@@ -49,6 +39,7 @@ const Footer = () => {
       >
         © 2024 Camille Manalo. All rights reserved. | created with boba and VS Code
       </p>
+        <p> . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁thanks for visiting . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁ </p>
       {/* <FooterContainer>
         <Row>
           <Column>
