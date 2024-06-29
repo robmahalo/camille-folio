@@ -9,7 +9,7 @@ const Footer = () => {
       <h2
         style={{
           textAlign: "center",
-          marginTop: "10px",
+          marginTop: "27px",
         }}
       >
         let's connect!
@@ -29,6 +29,16 @@ const Footer = () => {
         >
           <img className="" src={mail} alt="Email" />
         </a>
+      </div>
+      <div className="box">
+        <h3
+          style={{
+            textAlign: "center"
+            marginTop: "27px",
+          }}
+        >
+        . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁thanks for visiting . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁
+        </h3>  
       </div>
       <p
         style={{
