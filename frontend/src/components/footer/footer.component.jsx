@@ -32,19 +32,20 @@ const Footer = () => {
       </div>
       <p
         style={{
-          color: "white",
+          color: "gray",
           textAlign: "center",
           marginTop: "10px",
         }}
       >
         . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁thanks for visiting . ݁₊ ⊹ . ݁˖ . . ݁₊ ⊹ . ݁˖ . ݁ 
       </p>
-      <p>
+      <p
         style={{
-          color: "white",
+          color: "gray",
           textAlign: "center",
           marginTop: "10px",
         }}
+      >  
         © 2024 Camille Manalo. All rights reserved. | created with boba and VS Code
       </p>
     
