@@ -37,7 +37,7 @@ const Footer = () => {
           marginTop: "10px",
         }}
       >
-        © 2024 Camille Manalo. All rights reserved.
+        © 2024 Camille Manalo. All rights reserved. | created with boba and VS Code
       </p>
       {/* <FooterContainer>
         <Row>
