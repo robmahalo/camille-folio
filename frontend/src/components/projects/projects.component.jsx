@@ -25,7 +25,6 @@ const Projects = () => {
                 alt="webreg-project"
               ></img>
             </div>
-            <h2>UCSD's WebReg Redesign</h2>
           </div>
           <div className="card-black"></div>
           <div>
