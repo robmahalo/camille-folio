@@ -34,26 +34,20 @@ const HomeCardList = () => {
         />
         <div className="card-black">
           <div>
-            <h1>projects</h1>
-            <p>
-              this website! i used figma and vs code to create what you see
-              right now.
-            </p>
+            <h1>check out what i've made</h1>
           </div>
         </div>
         <div data-aos-duration="1000">
           <div className="card-list-alt">
             <div className="flex-container">
-              <div className="card-black">
-                <div>
+            <div>
+                <div className="card-black">
                   <img
                     className="image-container"
-                    src={zara}
-                    alt="zara-project"
+                    src={munchies}
+                    alt="munchies-project"
                   ></img>
                 </div>
-                <h2>Zara Redesign</h2>
-              </div>
               <div>
                 <div className="card-black">
                   <img
@@ -62,17 +56,16 @@ const HomeCardList = () => {
                     alt="webreg-project"
                   ></img>
                 </div>
-                <h2>UCSD's WebReg Redesign</h2>
               </div>
-              <div>
-                <div className="card-black">
+              <div className="card-black">
+                <div>
                   <img
                     className="image-container"
-                    src={munchies}
-                    alt="munchies-project"
+                    src={zara}
+                    alt="zara-project"
                   ></img>
                 </div>
-                <h2>Munchie Masters App</h2>
+              </div>
               </div>
             </div>
           </div>
