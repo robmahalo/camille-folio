@@ -24,7 +24,7 @@ const Footer = () => {
           <img className="" src={linkedin} alt="LinkedIn" />
         </a>
         <a
-          href="mailto:camillemanalo@icloud.com"
+          href="mailto:camillejcmanalo@gmail.com"
           style={{ marginLeft: "10px" }}
         >
           <img className="" src={mail} alt="Email" />
