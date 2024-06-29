@@ -33,7 +33,7 @@ const Footer = () => {
       <div className="box">
         <h3
           style={{
-            textAlign: "center"
+            textAlign: "center",
             marginTop: "27px",
           }}
         >
